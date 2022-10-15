@@ -7,14 +7,13 @@
  */
 int main(void)
 
-	char nd;
+	char n;
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
 		if (n != 'e' && n != 'q')
-			putchar(n);
-		}
+			putchar(n)	
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
