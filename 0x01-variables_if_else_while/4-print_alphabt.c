@@ -6,14 +6,15 @@
  * Return: Always 0
  */
 int main(void)
+{
+	char y;
 
-	char n;
-
-	for (n = 'a'; n <= 'z'; n++)
+	for (y = 'a'; y <= 'z'; y++)
 	{
-		if (n != 'e' && n != 'q')
-			putchar(n)	
+	if (y != 'e' && y != 'q')
+		putchar(y);
 	}
 	putchar('\n');
+
 	return (0);
 }
