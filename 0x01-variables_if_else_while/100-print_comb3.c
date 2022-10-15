@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 and 89.
+ * main - Prints numbers between 00 and 89.
  *
  * Return: Always 0
  */
@@ -26,7 +26,7 @@ int main(void)
 					break;
 				}
 				putchar(',');
-				[utchar(',');
+				putchar(',');
 			}
 			i++;
 		}
