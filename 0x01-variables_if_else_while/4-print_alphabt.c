@@ -6,16 +6,13 @@
  * Return: Always 0
  */
 int main(void)
-{
-	int n;
 
-	for (n = 48; n < 58; n++)
+	char nd;
+
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(',');
+		if (n != 'e' && n != 'q')
+			putchar(n);
 		}
 	}
 	putchar("\n");
